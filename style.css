@@ -29,3 +29,24 @@ button {
   padding: 5px;
   border: none;
 }
+.container2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  flex-wrap: wrap;
+}
+.side-img {
+  align-items: flex-end;
+  flex: 0 0 auto;
+  width: 300px;
+  height: auto;
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 0;
+}
