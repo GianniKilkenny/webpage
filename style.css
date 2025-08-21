@@ -41,7 +41,6 @@ button {
 }
 .side-img {
   align-items: flex-end;
-  flex: 0 0 auto;
   width: 300px;
   height: auto;
   box-sizing: border-box;
@@ -98,4 +97,17 @@ h1 {
   position: absolute;
   top: 200px;
   right: 200px;
+}
+.container4 {
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 50px 30px 50px;
+  border-radius: 10px;
+  margin: 50px;
+}
+.button-bottom {
+  border: 1px solid #f9faf8;
 }
